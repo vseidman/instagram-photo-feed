@@ -18,20 +18,25 @@ header h1{
     background-color: white;
     margin-top: 20px;
 }
+
+.header-post{
+    display: flex;
+}
+
+.header-post .post-date {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-post .post-title{
+    width: 80%;
+
+}
+
 .first-post img{
     width: 100%;
-}
-.first-post .header-post:nth-child(1){
-    display: inline-block;
-    width: 80%;
-    background-color: aquamarine;
-}
-.first-post .header-post span{
-    display: inline-block;
-    width: 100%;
-    text-align: right;
-    background-color: yellow;
-    color: gray;
 }
 
 .first-post h2, .first-post p{
